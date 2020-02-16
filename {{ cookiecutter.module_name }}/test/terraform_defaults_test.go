@@ -10,10 +10,10 @@ import (
 	"testing"
 )
 
-func TestTerraformPlaybookPublic(t *testing.T) {
+func TestTerraformDefaults(t *testing.T) {
 	t.Parallel()
 
-	exampleFolder := test_structure.CopyTerraformFolderToTemp(t, "../", "examples/simple")
+	exampleFolder := test_structure.CopyTerraformFolderToTemp(t, "../", "examples/defaults")
 	awsRegion := aws.GetRandomStableRegion(t, nil, nil)
 
 	cwd, err := os.Getwd()

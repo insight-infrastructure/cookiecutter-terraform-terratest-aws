@@ -19,7 +19,7 @@ module "this" {
 
 ## Examples
 
-- [simple](https://github.com/{{ cookiecutter.owner }}/{{ cookiecutter.module_name }}/tree/master/examples/simple)
+- [defaults](https://github.com/{{ cookiecutter.owner }}/{{ cookiecutter.module_name }}/tree/master/examples/defaults)
 
 ## Known issues
 No issue is creating limit on this module.

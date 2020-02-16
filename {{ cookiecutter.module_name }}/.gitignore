@@ -7,3 +7,5 @@
 .terragrunt-cache/
 .terraform/
 
+test/fixtures/keys/*
+!test/fixtures/keys/.gitkeep
