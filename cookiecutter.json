@@ -1,5 +1,4 @@
 {
   "module_name" : "terraform-aws-module",
-  "owner": "Your Name",
-  "use_semantic_release": [false, true]
+  "owner": "Your Name"
 }
