@@ -4,7 +4,7 @@
 
 This module...
 
-## Terraform versions
+## Terraform Versions
 
 For Terraform v0.12.0+
 
@@ -16,17 +16,25 @@ module "this" {
 
 }
 ```
-
 ## Examples
 
 - [defaults](https://github.com/{{ cookiecutter.owner }}/{{ cookiecutter.module_name }}/tree/master/examples/defaults)
 
-## Known issues
+## Known  Issues
 No issue is creating limit on this module.
 
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+
+## Testing
+This module has been packaged with terratest tests
+
+To run them:
+
+1. Install Go
+2. Run `make test-init` from the root of this repo
+3. Run `make test` again from root
 
 ## Authors
 

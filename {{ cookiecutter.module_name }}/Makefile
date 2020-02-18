@@ -12,3 +12,5 @@ clear-cache:						## Clear the terragrunt and terraform caches
 test:								## Run tests
 	go test ./test -v -timeout 15m
 
+test-init:							## Initialize the repo for tests
+	go mod init test && go mod tidy
