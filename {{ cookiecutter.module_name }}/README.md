@@ -1,5 +1,8 @@
 # {{ cookiecutter.module_name }}
 
+[![open-issues](https://img.shields.io/github/issues-raw/{{ cookiecutter.owner }}/{{ cookiecutter.module_name }}?style=for-the-badge)](https://github.com/{{ cookiecutter.owner }}/{{ cookiecutter.module_name }}/issues)
+[![open-pr](https://img.shields.io/github/issues-pr-raw/{{ cookiecutter.owner }}/{{ cookiecutter.module_name }}?style=for-the-badge)](https://github.com/{{ cookiecutter.owner }}/{{ cookiecutter.module_name }}/pulls)
+
 ## Features
 
 This module...
