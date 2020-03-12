@@ -1,4 +1,5 @@
 {
   "module_name" : "terraform-aws-module",
-  "owner": "Your Name"
+  "owner_name": "Your Name",
+  "owner_username": "Your GH username"
 }

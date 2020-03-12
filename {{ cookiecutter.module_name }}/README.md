@@ -1,7 +1,7 @@
 # {{ cookiecutter.module_name }}
 
-[![open-issues](https://img.shields.io/github/issues-raw/{{ cookiecutter.owner }}/{{ cookiecutter.module_name }}?style=for-the-badge)](https://github.com/{{ cookiecutter.owner }}/{{ cookiecutter.module_name }}/issues)
-[![open-pr](https://img.shields.io/github/issues-pr-raw/{{ cookiecutter.owner }}/{{ cookiecutter.module_name }}?style=for-the-badge)](https://github.com/{{ cookiecutter.owner }}/{{ cookiecutter.module_name }}/pulls)
+[![open-issues](https://img.shields.io/github/issues-raw/{{ cookiecutter.owner_username }}/{{ cookiecutter.module_name }}?style=for-the-badge)](https://github.com/{{ cookiecutter.owner_username }}/{{ cookiecutter.module_name }}/issues)
+[![open-pr](https://img.shields.io/github/issues-pr-raw/{{ cookiecutter.owner_username }}/{{ cookiecutter.module_name }}?style=for-the-badge)](https://github.com/{{ cookiecutter.owner_username }}/{{ cookiecutter.module_name }}/pulls)
 
 ## Features
 
@@ -15,13 +15,13 @@ For Terraform v0.12.0+
 
 ```
 module "this" {
-    source = "github.com/{{ cookiecutter.owner }}/{{ cookiecutter.module_name }}"
+    source = "github.com/{{ cookiecutter.owner_username }}/{{ cookiecutter.module_name }}"
 
 }
 ```
 ## Examples
 
-- [defaults](https://github.com/{{ cookiecutter.owner }}/{{ cookiecutter.module_name }}/tree/master/examples/defaults)
+- [defaults](https://github.com/{{ cookiecutter.owner_username }}/{{ cookiecutter.module_name }}/tree/master/examples/defaults)
 
 ## Known  Issues
 No issue is creating limit on this module.
@@ -41,7 +41,7 @@ To run them:
 
 ## Authors
 
-Module managed by [{{ cookiecutter.owner }}](github.com/{{ cookiecutter.owner }})
+Module managed by [{{ cookiecutter.owner_name }}](https://github.com/{{ cookiecutter.owner_username }})
 
 ## Credits
 
