@@ -13,10 +13,9 @@ For Terraform v0.12.0+
 
 ## Usage
 
-```
+```hcl
 module "this" {
-    source = "github.com/{{ cookiecutter.owner_username }}/{{ cookiecutter.module_name }}"
-
+  source = "github.com/{{ cookiecutter.owner_username }}/{{ cookiecutter.module_name }}"
 }
 ```
 ## Examples
@@ -41,7 +40,7 @@ To run them:
 
 ## Authors
 
-Module managed by [{{ cookiecutter.owner_name }}](https://github.com/{{ cookiecutter.owner_username }})
+Module managed by [{{ cookiecutter.owner_username }}](https://github.com/{{ cookiecutter.owner_username }})
 
 ## Credits
 
