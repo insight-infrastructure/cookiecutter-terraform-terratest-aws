@@ -4,7 +4,8 @@ Cookiecutter template to start terraform module with basic boilerplate tests wit
 
 ### Usage
 ```
-cookiecutter https://github.com/robc-io/cookiecutter-terraform-terratest
+nukikata 
+cookiecutter https://github.com/insight-infrastructure/cookiecutter-terraform-terratest
 ```
 
 See [cookiecutter docs](https://cookiecutter.readthedocs.io/en/1.7.0/) for more details.

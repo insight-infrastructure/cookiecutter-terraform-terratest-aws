@@ -1,0 +1,16 @@
+module_name:
+  type: input
+  message: What is the module's name >>
+  default: terraform-aws-
+  
+owner_username:
+  type: input
+  message: Your github username or org >>
+  default: insight-infrastructure
+
+render:
+  type: nukikata
+  context_file: cookiecutter.json
+  context_key: cookiecutter
+  existing_context: "{{ nuki }}"
+  no_input: true
